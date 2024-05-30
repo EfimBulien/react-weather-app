@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 const CityList = ({ onSelectCity }) => {
     const [city, setCity] = useState('');
     const [error, setError] = useState('');
-    const basicCities = ['New York', 'London', 'Paris', 'Moscow', 'Beijing'];
+    const basicCities = ['New York', 'London', 'Paris', 'Tokyo', 'Beijing'];
 
     const handleSelectCity = (city) => {
         onSelectCity(city);
